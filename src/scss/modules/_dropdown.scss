@@ -1,0 +1,39 @@
+.dropdown {
+  position: relative;
+
+  &--title {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 0 42px 0 18px;
+
+    &:after {
+      position: absolute;
+    }
+  }
+
+  &--item-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 5px 0 0;
+    padding: 0;
+    border: 1px solid #ccc;
+  }
+
+  &--item {
+    border-bottom: 1px solid #f0f0f0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &-is-seleted {
+
+    }
+  }
+
+  &-is-opened {
+
+  }
+
+}
